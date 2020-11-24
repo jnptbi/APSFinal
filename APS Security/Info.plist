@@ -33,8 +33,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Please allow access to ${PRODUCT_NAME} to capture reporting site photos</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Please select "Allow While Using App" to allow ${PRODUCT_NAME} to get your reporting site address always</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please select "Allow While Using App" to allow ${PRODUCT_NAME} to get your reporting site address always</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Please allow access to ${PRODUCT_NAME} to save reporting site photos in your photo library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
