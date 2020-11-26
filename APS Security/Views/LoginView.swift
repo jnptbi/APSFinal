@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import Alamofire
 
 struct LoginView: View {
     

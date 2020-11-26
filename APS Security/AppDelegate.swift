@@ -9,6 +9,10 @@
 import UIKit
 import Firebase
 import Messages
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+import AppCenterDistribute
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        #if DEBUG
+            AppCenter.start(withAppSecret: "caf9ccf3-4d73-494e-86a4-2954f3e83954", services: [Analytics.self, Crashes.self])
+        #else
+            AppCenter.start(withAppSecret: "caf9ccf3-4d73-494e-86a4-2954f3e83954", services: [Analytics.self, Crashes.self, Distribute.self])
+        #endif
         
         if #available(iOS 10.0, *) {
           // For iOS 10 display notification (sent via APNS)
