@@ -1,15 +1,5 @@
 PODS:
   - ActivityIndicatorView (0.0.6)
-  - AppCenter (4.0.0):
-    - AppCenter/Analytics (= 4.0.0)
-    - AppCenter/Crashes (= 4.0.0)
-  - AppCenter/Analytics (4.0.0):
-    - AppCenter/Core
-  - AppCenter/Core (4.0.0)
-  - AppCenter/Crashes (4.0.0):
-    - AppCenter/Core
-  - AppCenter/Distribute (4.0.0):
-    - AppCenter/Core
   - Firebase/Analytics (7.1.0):
     - Firebase/Core
   - Firebase/Core (7.1.0):
@@ -91,15 +81,12 @@ PODS:
 
 DEPENDENCIES:
   - ActivityIndicatorView
-  - AppCenter
-  - AppCenter/Distribute
   - Firebase/Analytics
   - Firebase/Messaging
 
 SPEC REPOS:
   trunk:
     - ActivityIndicatorView
-    - AppCenter
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -115,7 +102,6 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ActivityIndicatorView: f7c08841e302c86d16c29b7c9554fce2a2bd9183
-  AppCenter: 51351e0121e40ba75e28ecb7de5c2e69d480df5e
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
   FirebaseAnalytics: 7f165a56dea86ddd5b8ce02af3bee982c683405c
   FirebaseCore: 20046127eef0fcb8fa25df7fc12f7b97d4e48611
@@ -129,6 +115,6 @@ SPEC CHECKSUMS:
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
 
-PODFILE CHECKSUM: 4c7af3aaa5ac399e023c58f87f1c8489160f7dcb
+PODFILE CHECKSUM: 4e44e7c40170dad9761bedceec6ffe82b3777de4
 
 COCOAPODS: 1.10.0
